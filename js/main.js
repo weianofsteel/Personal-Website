@@ -1,6 +1,6 @@
-$(window).load(function(){
-	$('#preloader').fadeOut("fast",function(){$(this).remove();});
-});
+// $(window).load(function(){
+// 	$('#preloader').fadeOut("fast",function(){$(this).remove();});
+// });
 
 
 /******************************************************************************************************************************
@@ -36,14 +36,15 @@ Menu
 		if( closebtn ) {
 			closebtn.addEventListener( 'click', toggleMenu );
 		}
-
+		
+		// content.addEventListener( 'click', function(ev) {
+		// 	var target = ev.target;
+		// 	if( isOpen && target !== openbtn ) {
+		// 		toggleMenu();
+		// 	}
+		// } );
 		/* close the menu element if the target it´s not the menu element or one of its descendants..
-		content.addEventListener( 'click', function(ev) {
-			var target = ev.target;
-			if( isOpen && target !== openbtn ) {
-				toggleMenu();
-			}
-		} );
+		
 		*/
 	}
 
