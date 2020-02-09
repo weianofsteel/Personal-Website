@@ -457,9 +457,9 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') right bottom no-repeat;
+	background: url('../img/header-bg-2.jpg') right bottom no-repeat;
 	background-size: cover;
-	padding:100px 0 100px 0;
+	padding:80px 0 80px 0;
 	height:110%;
 	background-color: #FBFBFB;
 	opacity: 1;
@@ -568,7 +568,6 @@ table {
 	font-weight: bold;
 	color: rgb(255, 255, 255);
 }
-
 
 /* ==========================================================================Intro========================================================================== */
 .intro p {
@@ -1167,7 +1166,7 @@ ul.slides li {
 	}
 
 	.hero h1 {
-		font-size: 80px;
+		font-size: 60px;
 		line-height: 80px;
 		margin-top: 80px;
 	}
@@ -1217,7 +1216,7 @@ ul.slides li {
 		margin-bottom: 30px;
 	}
 	.hero h1 {
-		font-size: 70px;
+		font-size: 60px;
 		line-height: 80px;
 		margin-top: 60px;
 	}
